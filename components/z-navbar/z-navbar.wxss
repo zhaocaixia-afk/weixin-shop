@@ -1,0 +1,17 @@
+.nav{
+  display: flex;
+}
+.nav-item{
+  flex: 1;
+  text-align: center;
+  height: 88rpx;
+  line-height: 88rpx;
+  background: #eee;
+}
+.active{
+  color: #ff5777;
+}
+.active text{
+  padding: 0 10rpx 10rpx;
+  border-bottom: 4rpx solid #ff5777;
+}

@@ -1,0 +1,25 @@
+.image{
+  width: 100%;
+  border-radius: 10rpx;
+}
+.desc-info{
+  font-size: 28rpx;
+}
+.title{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info image{
+  width: 32rpx;
+  height: 32rpx;
+  margin: 0 10rpx;
+}
+.price{
+  color: #ff5777;
+}

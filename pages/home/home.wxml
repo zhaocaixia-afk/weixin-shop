@@ -1,2 +1,14 @@
-<!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<z-navbar class="isFixed navbar1" list="{{titleList}}" wx:if="{{isNavTabFixed}}" bind:itemclick="handleNavbarClick"/>
+<!-- 1.轮播图组件 -->
+<z-swiper list="{{banners}}"/>
+<!-- 2.recommend组件 -->
+<z-recommend list="{{recommends}}" bind:imageload="handleImageLoad"/>
+<!-- 3.显示本周流行 -->
+<z-popular/>
+<!-- 4.导航栏 -->
+<z-navbar class="navbar2" id="tab-control" list="{{titleList}}" bind:itemclick="handleNavbarClick"/>
+
+<!-- 5.商品列表 -->
+<z-goods list="{{goods[currentType].list}}"/>
+<!-- 6.回到顶部 -->
+<z-back-top wx:if="{{showBackTop}}"/>

@@ -1,0 +1,5 @@
+<view class="goods">
+  <block wx:for="{{list}}" wx:key="{{index}}">
+    <z-goods-item class="item" goodsItem="{{item}}"/>
+  </block>
+</view>
