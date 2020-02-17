@@ -39,11 +39,9 @@ Page({
   handleNavbarClick(e){
     const index = e.detail.index
 
-    const navbar1 = this.selectComponent('.navbar1')
-    const navbar2 = this.selectComponent('.navbar2')
-    navbar2.setData({
-      currentIndex: index
-    })
+    // 改变子组件中的值
+    this.selectComponent('.navbar1').setCurrentIndex(index)
+    this.selectComponent('.navbar2').setCurrentIndex(index)
 
     const type = types[index]
     this.setData({

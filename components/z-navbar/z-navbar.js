@@ -16,6 +16,13 @@ Component({
         currentIndex: index
       })
       this.triggerEvent('itemclick', { index }, {})
+    },
+    // 2.修改currentIndex的值
+    setCurrentIndex(index){
+      // console.log(index)
+      this.setData({
+        currentIndex: index
+      })
     }
   }
 })

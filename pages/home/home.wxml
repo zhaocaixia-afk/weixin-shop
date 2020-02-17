@@ -1,4 +1,7 @@
-<z-navbar class="isFixed navbar1" list="{{titleList}}" wx:if="{{isNavTabFixed}}" bind:itemclick="handleNavbarClick"/>
+<view hidden="{{!isNavTabFixed}}">
+  <z-navbar class="isFixed navbar1" list="{{titleList}}" bind:itemclick="handleNavbarClick"/>
+</view>
+
 <!-- 1.轮播图组件 -->
 <z-swiper list="{{banners}}"/>
 <!-- 2.recommend组件 -->
