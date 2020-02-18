@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "z-swiper": "/components/z-swiper/z-swiper",
+    "z-base-info": "./cnpChild/z-base-info/z-base-info",
+    "z-shop-info": "./cnpChild/z-shop-info/z-shop-info",
+    "z-detail-info": "./cnpChild/z-detail-info/z-detail-info",
+    "z-params-info": "./cnpChild/z-params-info/z-params-info",
+    "z-comment-info": "./cnpChild/z-comment-info/z-comment-info",
+    "z-recommend-info": "./cnpChild/z-recommend-info/z-recommend-info",
+    "z-bottom-bar": "./cnpChild/z-bottom-bar/z-bottom-bar"
+  }
+}

@@ -1,0 +1,21 @@
+<view class="base-info">
+  <text class="title">{{baseInfo.title}}</text>
+  <view class="price">
+    <text class="newPrice">{{baseInfo.newPrice}}</text>
+    <text class="oldPrice">{{baseInfo.oldPrice}}</text>
+    <text class="discount">{{baseInfo.discount}}</text>
+  </view>
+  <view class="columns">
+    <block wx:for="{{baseInfo.columns}}" wx:key="{{index}}">
+      <text>{{item}}</text>
+    </block>
+  </view>
+  <view class="services">
+    <block wx:for="{{baseInfo.services}}" wx:key="{{index}}" wx:if="{{index !== 0 }}">
+      <view class="services-item">
+        <image src="{{item.icon}}" class="icon"/>
+        <text>{{item.name}}</text>
+      </view>
+    </block>
+  </view>
+</view>

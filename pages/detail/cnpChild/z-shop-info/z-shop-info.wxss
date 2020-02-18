@@ -1,0 +1,58 @@
+.shop-info{
+  padding: 16rpx 16rpx 50rpx;
+  border-bottom: 12rpx solid #f2f2f2;
+}
+.title-info{
+  margin-top: 30rpx;
+  display: flex;
+  align-items: center;
+}
+.title-info image{
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 46rpx;
+  border: 2rpx solid rgba(200, 200, 200, .6);
+  margin-right: 18rpx;
+}
+.button{
+  text-align: center;
+}
+.button button::after{
+  border: none;
+}
+.button button{
+  padding: 8rpx 100rpx;
+  font-size: 32rpx;
+}
+.sell-info{
+  display: flex;
+  margin: 40rpx 0;
+}
+.count-goods{
+  display: flex;
+  flex: 1;
+}
+.item{
+  text-align: center;
+  margin:  0 30rpx;
+}
+.item view{
+  font-size: 26rpx;
+  white-space: nowrap;
+}
+.score{
+  flex: 1;
+  border-left: 2rpx solid rgba(200, 200, 200, .6);
+  font-size: 30rpx;
+  padding: 0 30rpx 0 60rpx;
+}
+.score-item{
+  display: flex;
+  justify-content: space-between;
+}
+.good{
+  color: #ff5777;
+}
+.less{
+  color: #5ea732;
+}

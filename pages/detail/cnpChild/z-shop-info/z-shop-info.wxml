@@ -1,0 +1,30 @@
+<view class="shop-info">
+  <view class="title-info">
+    <image src="{{shopInfo.logo}}" />
+    <text>{{shopInfo.name}}</text>
+  </view>
+  <view class="sell-info">
+    <view class="count-goods">
+      <view class="count item">
+        <text>{{shopInfo.sells}}</text>
+        <view>总销量</view>
+      </view>
+      <view class="goods item">
+        <text>{{shopInfo.goods}}</text>
+        <view>全部宝贝</view>
+      </view>
+    </view>
+    <view class="score">
+      <block wx:for="{{shopInfo.score}}" wx:key="{{index}}">
+        <view class="score-item">
+          <text>{{item.name}}</text>
+          <text class="{{item.isBetter ? 'good' : 'less'}}">{{item.score}}</text>
+          <text class="{{item.isBetter ? 'good' : 'less'}}">{{item.isBetter ? '低':'高'}}</text>
+        </view>
+      </block>
+    </view>
+  </view>
+  <view class="button">
+    <button size="mini">进店逛逛</button>
+  </view>
+</view>

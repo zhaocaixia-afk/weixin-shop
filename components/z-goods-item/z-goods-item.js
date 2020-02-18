@@ -9,18 +9,14 @@ Component({
       value: {}
     }
   },
-
-  /**
-   * 组件的初始数据
-   */
-  data: {
-
-  },
-
-  /**
-   * 组件的方法列表
-   */
   methods: {
-
+    itemClick(){
+      // 1.获取iid
+      const iid = this.data.goodsItem.iid
+      // 2.跳转到detail页面
+      wx.navigateTo({
+        url: '/pages/detail/detail?iid='+iid,
+      })
+    }
   }
 })

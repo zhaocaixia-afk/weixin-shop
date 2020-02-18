@@ -1,0 +1,12 @@
+.detail{
+  height: calc(100% - 120rpx);
+}
+.bottom-bar{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.d-swiper swiper{
+  height: 800rpx;
+}

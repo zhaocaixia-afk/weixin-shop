@@ -1,5 +1,5 @@
-<view class="goods-item">
-  <image class="image" src="{{goodsItem.show.img}}" mode="widthFix"/>
+<view class="goods-item" bind:tap="itemClick">
+  <image class="image" src="{{goodsItem.show.img || goodsItem.image}}" mode="widthFix"/>
   <view class="desc-info">
     <view class="title">{{goodsItem.title}}</view>
     <view class="info">
