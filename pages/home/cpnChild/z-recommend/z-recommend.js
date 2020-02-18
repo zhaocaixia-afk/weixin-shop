@@ -11,7 +11,7 @@ Component({
   methods:{
     handleImage(){
       if(!this.data.isLoad){
-        this.triggerEvent('imageload')
+        this.triggerEvent('imageload',{},{})
         this.data.isLoad = true
       }
     }

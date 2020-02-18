@@ -58,14 +58,14 @@
 					"id": -1,
 					"name": "pages/detail/detail",
 					"pathName": "pages/detail/detail",
-					"query": "iid=\"1m70y5k\"",
+					"query": "iid=1m70y5k",
 					"scene": null
 				},
 				{
 					"id": -1,
-					"name": "pages/detail/detail",
-					"pathName": "pages/detail/detail",
-					"query": "iid=1m70y5k",
+					"name": "pages/cart/cart",
+					"pathName": "pages/cart/cart",
+					"query": "",
 					"scene": null
 				}
 			]
