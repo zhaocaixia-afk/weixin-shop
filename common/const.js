@@ -1,0 +1,1 @@
+export const BACT_TOP_POSITION = 1000

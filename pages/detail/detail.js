@@ -26,7 +26,6 @@ Page({
       const data = res.data.result
       // 1.1轮播图数据
       const topImages = data.itemInfo.topImages
-      console.log(topImages)
       // 1.2商品详情
       var baseInfo = new GoodsBaseInfo(data.itemInfo,data.columns,data.shopInfo.services)
       // 1.3商家信息
