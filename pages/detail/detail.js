@@ -67,7 +67,7 @@ Page({
     obj.title = this.data.baseInfo.title
     obj.desc = this.data.baseInfo.desc
     obj.price = this.data.baseInfo.realPrice
-    // console.log(obj)
+
     app.addToCart(obj)
     wx.showToast({
       title: '加入购物车成功',
