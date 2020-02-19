@@ -8,5 +8,6 @@
     "z-comment-info": "./cnpChild/z-comment-info/z-comment-info",
     "z-recommend-info": "./cnpChild/z-recommend-info/z-recommend-info",
     "z-bottom-bar": "./cnpChild/z-bottom-bar/z-bottom-bar"
-  }
+  },
+  "navigationBarTitleText": "商品详情"
 }

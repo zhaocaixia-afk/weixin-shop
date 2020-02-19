@@ -1,4 +1,4 @@
-/* .cart-list-item {
+.cart-list-item {
   display: flex;
   padding: 20rpx;
   align-items: center;
@@ -51,4 +51,4 @@
   color: #ff5777;
   font-size: 40rpx;
 }
- */
+

@@ -1,1 +1,5 @@
-/* components/z-check-icon/z-check-icon.wxss */
+/* components/w-check-icon/w-check-icon.wxss */
+.check-icon {
+  border: 4rpx solid #aaa;
+  border-radius: 50%;
+}

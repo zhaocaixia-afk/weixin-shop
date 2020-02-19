@@ -1,3 +1,11 @@
 <view class="cart">
-  cart
+  <scroll-view class="cart-list" scroll-y>
+    <block wx:for="{{cartList}}" wx:key="index">
+      <cart-list-item goods="{{item}}" index="{{index}}"/>
+    </block>
+  </scroll-view>
+  <bottom-bar counter="{{totalCounter}}" 
+              price="{{totalPrice}}" 
+              selected="{{isSelectAll}}"
+              bind:tap="onSelectAll"/>
 </view>
