@@ -63,15 +63,9 @@
 				},
 				{
 					"id": -1,
-					"name": "pages/cart/cart",
-					"pathName": "pages/cart/cart",
+					"name": "pages/category/category",
+					"pathName": "pages/category/category",
 					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/cart/cart",
-					"pathName": "pages/cart/cart",
 					"scene": null
 				}
 			]
