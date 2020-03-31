@@ -1,4 +1,4 @@
-<view class="header">
+<view class="header" bind:tap="goLogin">
   <view class="avatar">
     <image src="/assets/images/profile/avatar.png"/>
   </view>

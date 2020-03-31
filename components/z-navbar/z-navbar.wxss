@@ -6,7 +6,7 @@
   text-align: center;
   height: 88rpx;
   line-height: 88rpx;
-  background: #eee;
+  background: #fff;
 }
 .active{
   color: #ff5777;
